@@ -1,7 +1,7 @@
 FROM python:3.11-slim
 
 # Bring necessary files
-COPY lmms-eval/ /app/lmms-eval/
+COPY . /app/lmms-eval/
 
 WORKDIR /app/lmms-eval
 
